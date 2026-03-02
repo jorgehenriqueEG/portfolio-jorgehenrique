@@ -1,4 +1,3 @@
-Portfólio Profissional – Jorge Henrique de Araújo Vitorino
 Visão Geral
 
 Este repositório contém o portfólio profissional de Jorge Henrique de Araújo Vitorino, estudante do 7º período de Engenharia da Computação na Uniube.
