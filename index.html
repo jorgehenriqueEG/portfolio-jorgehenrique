@@ -1,133 +1,200 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jorge Henrique de Araujo Vitorino | Portfólio</title>
-  <meta name="description" content="Portfólio de Jorge Henrique, estudante de Engenharia da Computação com foco em desenvolvimento de sistemas, IA e infraestrutura." />
-  <meta name="author" content="Jorge Henrique de Araujo Vitorino" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jorge Henrique | Estudante de Engenharia & Entusiasta de Automação</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<script src="script.js"></script>
-  
 <body>
-  <header>
-    <h1>Jorge Henrique de Araujo Vitorino</h1>
-    <p>Uberlândia - MG | 24 anos | Engenharia da Computação - 7º período (Uniube)</p>
-  </header>
 
-  <nav>
-    <ul>
-      <li><a href="#objetivo">Objetivo</a></li>
-      <li><a href="#formacao">Formação</a></li>
-      <li><a href="#cursos">Certificações</a></li>
-      <li><a href="#competencias">Competências Técnicas</a></li>
-      <li><a href="#projetos">Projetos</a></li>
-      <li><a href="#experiencia">Experiência</a></li>
-      <li><a href="#habilidades">Habilidades</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>
-  </nav>
+    <header class="hero">
+        <div class="container">
+            <nav>
+                <div class="logo">JORGE HENRIQUE</div>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#stack">Tecnologias</a></li>
+                    <li><a href="#projects">Sistemas</a></li>
+                    <li><a href="#contact" class="btn-sm">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="hero-flex-container">
+                <div class="hero-image-wrapper">
+                    <img src="imagem_jorge.jpg" alt="Jorge Henrique" class="profile-img">
+                </div>
+                <div class="hero-content">
+                    <span class="badge">Estudante de Engenharia da Computação</span>
+                    <h1>Jorge Henrique de Araújo Vitorino</h1>
+                    <p class="subtitle">Futuro Engenheiro de Automação & Sistemas em Nuvem</p>
+                    <p class="lead">
+                        Aplicando princípios de engenharia para construir fluxos autônomos e soluções em nuvem através de aprendizado prático e projetos reais.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn-primary">Ver Portfólio de Projetos</a>
+                        <a href="https://github.com/jorgehenriqueEG" target="_blank" class="btn-secondary">
+                            <i class="fab fa-github"></i> Documentação
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-  <main>
-    <section id="objetivo">
-      <h2> Objetivo Profissional</h2>
-      <p>Ingressar em um programa de estágio na área de Tecnologia da Informação, com foco em aprendizado prático, desenvolvimento técnico e participação ativa em projetos de software, suporte, infraestrutura ou áreas correlatas.</p>
-    </section>
+    <main class="container">
+        <section id="about" class="section-grid">
+            <div class="card about-card">
+                <h2>Sobre Minha Jornada</h2>
+                <p>
+                    Atualmente estudante dedicado de Engenharia da Computação, com forte foco em automação e infraestrutura em nuvem. Estou conectando teoria acadêmica com aplicação real desenvolvendo sistemas autônomos utilizando Python, SQL e AWS.
+                </p>
+                
+                <div style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div>
+                        <h3 style="font-size: 0.75rem; color: var(--accent); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">
+                            Formação Atual
+                        </h3>
+                        <p style="font-size: 0.9rem; margin: 0;"><strong>Bacharelado em Engenharia da Computação</strong></p>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary);">Uniube — 7º Período</p>
+                    </div>
+                    <div>
+                        <h3 style="font-size: 0.75rem; color: var(--accent); margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">
+                            Disponibilidade
+                        </h3>
+                        <p style="font-size: 0.9rem; margin: 0;"><strong>Localização:</strong> Brasil (BRT)</p>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary);">Aberto para Trabalho Remoto</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card build-card">
+                <h2>Foco Técnico</h2>
+                <ul class="build-list">
+                    <li><strong>Fluxos Autônomos:</strong> Implementação de pipelines com n8n.</li>
+                    <li><strong>Infraestrutura em Nuvem:</strong> Experiência prática com AWS EC2.</li>
+                    <li><strong>Integração de Dados:</strong> Desenvolvimento de lógica SQL e ETL.</li>
+                    <li><strong>Design de Algoritmos:</strong> Lógica heurística e simulações.</li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="formacao">
-      <h2>🎓 Formação Acadêmica</h2>
-      <p><strong>Bacharelado em Engenharia da Computação</strong><br>
-      Universidade de Uberaba (Uniube) – Uberlândia/MG<br>
-      6º período | Previsão de conclusão: 2027</p>
-    </section>
+        <section id="stack" class="stack-section">
+            <h2 class="section-title">Matriz Técnica</h2>
+            <div class="stack-grid">
+                <div class="stack-group">
+                    <h3>Aprendizado Principal</h3>
+                    <div class="tags">
+                        <span>Python</span><span>SQL</span><span>AWS (EC2)</span><span>n8n</span>
+                    </div>
+                </div>
+                <div class="stack-group">
+                    <h3>Desenvolvimento de Sistemas</h3>
+                    <div class="tags">
+                        <span>Java</span><span>C++</span><span>C#</span><span>Linux</span>
+                    </div>
+                </div>
+                <div class="stack-group">
+                    <h3>Automação & Ferramentas</h3>
+                    <div class="tags">
+                        <span>Git</span><span>GitHub</span><span>APIs REST</span><span>POO</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="cursos">
-      <h2> Cursos e Certificações</h2>
-      <ul>
-        <li>Manutenção de Microcomputador – Prime Cursos (40h)</li>
-        <li>Curso de Hardware – Curso em Vídeo (25h)</li>
-        <li>Limpeza física e substituição de componentes</li>
-        <li>Robótica Básica – Bit Cursos</li>
-        <li>Pacote Office (Excel e Word – Básico-Intermediário)</li>
-        <li>Participações em eventos e maratonas de tecnologia – UFU</li>
-      </ul>
-    </section>
+        <section id="projects">
+            <h2 class="section-title">Projetos Acadêmicos & Pessoais</h2>
+            <div class="projects-grid">
 
-    <section id="competencias">
-      <h2> Competências Técnicas</h2>
-      <p><strong>Linguagens:</strong> Python, C++, C#, Java (básico a intermediário), HTML5, CSS3, JavaScript</p>
-      <p><strong>Ferramentas e Tecnologias:</strong> Git, GitHub, VS Code, SQL (básico), POO, lógica de programação, Office (Excel/Word)</p>
-      <p><strong>Idiomas:</strong> Inglês técnico (intermediário a avançado)</p>
-      <p><strong>Idiomas:</strong> Alemão(Básico)</p>
-      <p><strong>Idiomas:</strong> Espanhol (Básico)</p>
-    </section>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-type">Projeto B2B</span>
+                        <h3>Plataforma de Proteção de Receita</h3>
+                    </div>
+                    <p>Plataforma de gestão B2B (Campo Fácil) desenvolvida para evitar perda de leads e otimizar o ciclo de vendas.</p>
+                    <div class="project-meta">
+                        <small><strong>Tecnologias:</strong> Python, SQL, Lógica de Automação</small>
+                    </div>
+                    <a href="https://github.com/jorgehenriqueEG/campofacil-sistema-agro" target="_blank" class="project-link">
+                        Ver Documentação <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
 
-    <section id="projetos">
-      <h2> Projetos Acadêmicos e Autônomos</h2>
-      <ul>
-        <li>Desenvolvimento de sistemas em Python com menus e cadastros – <a href="https://github.com/jorgehenriqueEG" target="_blank">Ver no GitHub</a></li>
-        <li>Projetos com estruturas de dados e integração com interfaces simples</li>
-        <li>IA em Campo Minado no terminal com lógica condicional</li>
-      </ul>
-    </section>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-type">Estudo de Lógica & Algoritmos</span>
+                        <h3>Resolvedor Autônomo de Campo Minado</h3>
+                    </div>
+                    <p>Implementação de lógica baseada em probabilidade e algoritmos de busca heurística.</p>
+                    <div class="project-meta">
+                        <small><strong>Tecnologias:</strong> Python, Lógica Algorítmica</small>
+                    </div>
+                    <a href="https://github.com/jorgehenriqueEG/AI" target="_blank" class="project-link">
+                        Ver Lógica <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
 
-    <section id="experiencia">
-      <h2>Experiências Profissionais</h2>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-type">Laboratório de Simulação</span>
+                        <h3>Simulação de Sistema 2D</h3>
+                    </div>
+                    <p>Ambiente interativo desenvolvido para testar gerenciamento de estados e física de colisão.</p>
+                    <div class="project-meta">
+                        <small><strong>Tecnologias:</strong> C#, Unity Engine</small>
+                    </div>
+                    <span class="project-link">Status: Em Fase de Aprendizado <i class="fas fa-microchip"></i></span>
+                </div>
 
-      <article>
-        <h3>Park Máquinas <span>(jan/2024 – março/2025)</span></h3>
-        <ul>
-          <li>Controle de estoque e conferência de mercadorias</li>
-          <li>Abertura da loja, suporte logístico e atendimento ao cliente</li>
-        </ul>
-      </article>
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-type">Fluxo de Automação</span>
+                        <h3>Automação de Conteúdo Shubtales</h3>
+                    </div>
+                    <p>Automação completa utilizando n8n para criar e publicar vídeos em redes sociais.</p>
+                    <div class="project-meta">
+                        <small><strong>Tecnologias:</strong> n8n, JavaScript, AWS EC2</small>
+                    </div>
+                    <a href="https://github.com/jorgehenriqueEG/N8N" target="_blank" class="project-link">
+                        Especificações de Integração <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
 
-      <article>
-        <h3>Gelu Merchandising <span>(jun/2023 – jan/2024)</span></h3>
-        <ul>
-          <li>Organização de produtos e controle de validade no ponto de venda</li>
-        </ul>
-      </article>
+            </div>
+        </section>
 
-      <article>
-        <h3>Cacau Show <span>(dez/2021 – dez/2022)</span></h3>
-        <ul>
-          <li>Atendimento ao cliente, operação de caixa e liderança de equipe</li>
-          <li>Controle de notas fiscais e processos logísticos internos</li>
-        </ul>
-      </article>
-    </section>
+        <section id="contact" class="contact-section">
+            <div class="contact-content">
+                <h2>Contato Técnico & Oportunidades de Estágio</h2>
+                <p>Aberto para oportunidades como desenvolvedor júnior, estágio ou colaboração em projetos de automação.</p>
+                <div class="contact-links">
+                    <a href="mailto:jorgehenriqueavitorino@hotmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                    <a href="https://www.linkedin.com/in/jorge-henrique-de-ara%C3%BAjo-vitorino-661a88217/" class="contact-item" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/jorgehenriqueEG" class="contact-item" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
 
-    <section id="habilidades">
-      <h2>Habilidades Comportamentais</h2>
-      <ul>
-        <li>Raciocínio lógico e resolução de problemas</li>
-        <li>Proatividade, responsabilidade e disciplina</li>
-        <li>Boa comunicação e trabalho em equipe</li>
-        <li>Interesse contínuo por tecnologia, IA, automação e cloud computing</li>
-      </ul>
-    </section>
+                <div style="margin-top: 2.5rem;">
+                    <a href="Jorge_Henrique_Developer_CV.pdf" download class="btn-primary resume-btn">
+                        <i class="fas fa-file-download"></i> Baixar Currículo
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <section id="contato">
-      <h2> Contato</h2>
-      <ul class="contact-list">
-        <li><i class="fa-solid fa-envelope"></i> <a href="mailto:jorgehenriqueavitorino@hotmail.com">jorgehenriqueavitorino@hotmail.com</a></li>
-        <li><i class="fa-solid fa-phone"></i> <a href="tel:+5534998115792">(34) 99811-5792</a></li>
-        <li><i class="fa-brands fa-github"></i> <a href="https://github.com/jorgehenriqueEG" target="_blank">GitHub: jorgehenriqueEG</a></li>
-        <li><i class="fa-solid fa-link"></i> <a href="https://jorgehenriqueeg.github.io/meu-site/" target="_blank">Portfólio</a></li>
-      </ul>
-    </section>
-  </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Jorge Henrique de Araújo Vitorino | Estudante de Engenharia</p>
+        </div>
+    </footer>
 
-  <footer style="text-align:center; color:#888; font-size:0.9rem; margin:2rem 0;">
-    &copy; 2024 Jorge Henrique de Araujo Vitorino | Desenvolvido com HTML, CSS e paixão por tecnologia.
-  </footer>
+    <script src="script.js"></script>
 </body>
 </html>
-
