@@ -1,32 +1,82 @@
-Descrição
+Portfólio Profissional – Jorge Henrique de Araújo Vitorino
+Visão Geral
 
-Este é o portfólio pessoal do Jorge Henrique de Araujo Vitorino, estudante do 6º período de Engenharia da Computação na Uniube. O site apresenta suas informações profissionais, acadêmicas e projetos, com foco em desenvolvimento de sistemas, inteligência artificial e infraestrutura.
+Este repositório contém o portfólio profissional de Jorge Henrique de Araújo Vitorino, estudante do 7º período de Engenharia da Computação na Uniube.
 
-A versão 2.0 traz um design atualizado, layout responsivo, modo escuro com persistência da preferência do usuário, além de melhorias na usabilidade e acessibilidade.
-Funcionalidades principais
+O projeto foi desenvolvido com o objetivo de apresentar de forma estruturada:
 
-    Navegação simples e intuitiva com menu ancorado
+Formação acadêmica
 
-    Seções detalhadas: Objetivo profissional, formação, certificações, competências técnicas, projetos, experiências e contato
+Competências técnicas
 
-    Design limpo e moderno com fonte personalizada (Google Fonts - Inter)
+Projetos acadêmicos e pessoais
 
-    Modo escuro ativável, com preferência salva no localStorage
+Experiências práticas
 
-    Ícones FontAwesome para maior clareza visual
+Áreas de interesse profissional
 
-    Responsivo para dispositivos móveis e desktops
+O portfólio possui foco em desenvolvimento de sistemas, automação, inteligência artificial e infraestrutura em nuvem, refletindo a aplicação prática dos conhecimentos adquiridos ao longo da graduação.
 
-    Contato direto via email, telefone, GitHub e link do portfólio
+A versão 1 encontra-se em processo de descontinuação e está sendo oficialmente substituída pela versão 2, com o objetivo de evitar inconsistências, redundâncias e possíveis confusões na apresentação do projeto.
 
-Tecnologias utilizadas
+Versão 2.0 – Atualizações Técnicas
 
-    HTML5 para estrutura semântica
+A versão 2.0 introduz melhorias estruturais e funcionais voltadas para experiência do usuário, organização arquitetural e padronização do código:
 
-    CSS3 para estilização, incluindo efeitos de transição e responsividade
+Layout responsivo otimizado para múltiplos dispositivos
 
-    JavaScript para funcionalidade do modo escuro com persistência local
+Implementação de modo escuro com persistência via localStorage
 
-    FontAwesome para ícones
+Estrutura semântica aprimorada com HTML5
 
-    Google Fonts (Inter) para tipografia moderna e legível
+Organização e refinamento do CSS
+
+Melhorias de acessibilidade e legibilidade
+
+Design minimalista com foco em clareza e hierarquia visual
+
+Funcionalidades Implementadas
+
+Navegação ancorada com rolagem suave
+
+Estrutura de seções organizadas por domínio técnico e acadêmico
+
+Sistema de alternância de tema (claro/escuro)
+
+Persistência da preferência do usuário
+
+Interface adaptativa baseada em boas práticas de responsividade
+
+Integração com links externos (GitHub, LinkedIn e Email)
+
+Stack Tecnológica
+
+Frontend
+
+HTML5 (estrutura semântica)
+
+CSS3 (Flexbox, Grid, Media Queries e Transições)
+
+JavaScript (manipulação de DOM e armazenamento local)
+
+Recursos Externos
+
+FontAwesome (ícones vetoriais)
+
+Google Fonts – Inter (tipografia otimizada para leitura)
+
+Objetivo do Projeto
+
+Este portfólio foi desenvolvido não apenas como uma vitrine profissional, mas como um ambiente de consolidação técnica, permitindo:
+
+Aplicação de boas práticas de desenvolvimento web
+
+Estruturação organizada de código
+
+Implementação de funcionalidades orientadas à experiência do usuário
+
+Apresentação profissional para oportunidades de estágio e posições júnior
+
+Contato
+
+Disponível para oportunidades de estágio, desenvolvimento de software, automação e colaboração técnica, incluindo posições remotas.
